@@ -5,7 +5,7 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('MultiDevice\nRazen', {
+CFonts.say('MultiDevice\nOscar', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
