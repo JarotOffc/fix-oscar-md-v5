@@ -41,7 +41,7 @@ let nth = `*𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚜𝚌𝚊𝚛-𝙼𝚞𝚕𝚝�
 conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'Sosial Media', '.sosialmedia', 'Owner', '.owner', 'Donasi', '.donasi', fcon, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://wa.me/p/5489299044451325/6285850539404',
     mediaType: 2, 
-    description: gc,
+    description: sgc,
     title: "Sᴇᴡᴀ Cʜᴀᴛ ᴏᴡɴᴇʀ!!!",
     body: wm,
     thumbnail: fs.readFileSync('thumbnail.jpg'),
