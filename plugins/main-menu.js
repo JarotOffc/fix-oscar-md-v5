@@ -237,7 +237,7 @@ let jarot = `┏─────────────────⬣
 ┆ 𝑯𝒂𝒊, ${tagnya} 👋
 ┗┬──────────────┈ ⳹
 ┏┆♠︎ 𝙽𝚊𝚖𝚎 : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┃┆♠︎ 𝚂𝚝𝚊𝚝𝚞𝚜 : ${m.sender.split`@`[0] == owner ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┃┆♠︎ 𝚂𝚝𝚊𝚝𝚞𝚜 : ${m.sender.split`@`[0] == owner ? 'Developer' : (global.prems ? 'Premium User' : 'Free User')}
 ┃┆♠︎𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${global.prems ? 'Premium' : 'Free'}
 ┃┆♠︎𝚁𝚘𝚕𝚎 : ${usrs.role}
 ┃┆♠︎𝙻𝚒𝚖𝚒𝚝 : ${usrs.limit}
